@@ -1,8 +1,14 @@
-<img src="PwnScanner.png" alt="Logo" width="150" height="150">
-
 # PwnScanner
 
-A powerful VS Code extension for AI-powered code vulnerability scanning with comprehensive reporting features.
+<p align="center">
+<a href="https://github.com/Mdrasel1230/PwnScanner" target="_blank">
+<img src="https://raw.githubusercontent.com/Mdrasel1230/PwnScanner/refs/heads/main/PwnScanner.png" alt="PwnScanner" height="250" width="250"/>
+</a>
+</p>
+
+<p align="center">
+A powerful VS Code extension for <b>AI-powered code vulnerability</b> scanning with comprehensive reporting features.
+</p>
 
 ## What It Does
 
