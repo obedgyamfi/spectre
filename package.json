@@ -1,0 +1,48 @@
+{
+  "name": "PwnScanner",
+  "version": "0.0.1",
+  "main": "./out/extension.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "icon": "PwnScanner.png",
+  "description": "AI-powered code vulnerability scanning Tool",
+  "displayName": "PwnScanner",
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "@types/pdfkit": "^0.13.9",
+    "@types/vscode": "^1.98.0",
+    "@vscode/vsce": "^3.2.2",
+    "axios": "^1.8.3",
+    "html-pdf": "^3.0.1",
+    "openai": "^4.87.3",
+    "pdfkit": "^0.16.0",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onCommand:PwnScanner.scan"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "PwnScanner.scan",
+        "title": "Scan with PwnScanner"
+      },
+      {
+        "command": "PwnScanner.configure",
+        "title": "PwnScanner Configuration"
+      }
+    ]
+  },
+  "publisher": "mdrasel1230",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mdrasel1230/PwnScanner"
+  }
+}
