@@ -54,6 +54,9 @@ The VS Code Security Scanner identifies potential security vulnerabilities in yo
 ### From VS Code Marketplace
 
 1. Install the extension from the VS Code Marketplace by Searching PwnScanner
+
+![PwnScanner Extension](images/PwnScanner_Extension.png)
+
 2. Run the "PwnScanner Configuration" command from the command palette for API Configuration
 3. Open a file you want to scan
 4. Run the "Scan with PwnScanner" command from the command palette
