@@ -108,7 +108,7 @@ export class VulnerabilityScanner {
 
     const basePrompt = `
             As a security expert, analyze the following ${language} code for vulnerabilities.
-            You must return the results in the following JSON format:
+            You must return the results in the following JSON format only and nothing else:
 
             {
                 "vulnerabilities": [

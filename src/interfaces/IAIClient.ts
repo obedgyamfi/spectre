@@ -6,10 +6,12 @@ export interface IAIClient {
 export enum AIProvider {
     OpenAI = 'openai',
     Claude = 'claude',
-    Grok = 'grok'
+    Grok = 'grok',
+    Ollama = 'ollama'
 }
 
 export interface AIClientConfig {
     provider: AIProvider;
     apiKey: string;
 }
+

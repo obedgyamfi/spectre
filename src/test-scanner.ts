@@ -17,7 +17,7 @@ interface MockContext {
 async function testScanner() {
     const possiblePaths = [
         path.join(process.cwd(), 'src', 'test', 'test_vulnerability.ts'),
-        path.join(process.cwd(), 'test_vulnerability.ts')
+        path.join(process.cwd(), 'test_vulnerability.js')
     ];
 
     let testFilePath: string | undefined;

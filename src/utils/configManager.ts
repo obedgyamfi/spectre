@@ -22,10 +22,12 @@ export class ConfigManager {
     constructor(private context: ConfigContext) {}
 
     async getApiKey(provider: AIProvider): Promise<string | undefined> {
+        if (provider === AIProvider.Ollama) return undefined;
         return await this.context.secrets.get(ConfigManager.API_KEY_MAP[provider]);
     }
 
     async setApiKey(provider: AIProvider, apiKey: string): Promise<void> {
+        if (provider === AIProvider.Ollama) return;
         await this.context.secrets.store(ConfigManager.API_KEY_MAP[provider], apiKey);
     }
 
